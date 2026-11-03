@@ -1,10 +1,10 @@
 # Journal météorologique de la ferme
 
-> Projet individuel du SAS DFS, brief 4 (sujet : [SUJET.md](SUJET.md)). Remplacez chaque ✏️ par votre texte, puis supprimez cette ligne.
+> Projet individuel du SAS DFS, brief 4 (sujet : [SUJET.md](SUJET.md)).
 
 ## Contexte
 
-✏️ *En trois à cinq phrases : qui utilise l'outil, quel problème il résout, ce qu'il ne permet pas de conclure.*
+Le journal métérologique est un application en ligne de commande destinée à enregistrer et exploiter les observations météorologiques quotidiennes d'une explotation agricole. Elle permettra de suivre trois paramètres : la température, la pluviométrie et l'hmidité relative de l'air. L'objectif est de faciliter la conservation, la consultation et l'analyse descriptives des données pour apuyer le suivi des activités agricoles.
 
 ## Prérequis et lancement
 
@@ -21,7 +21,7 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ## Fonctionnalités
 
-✏️ *Cochez seulement ce qui marche : `- [x]`.*
+✏️ _Cochez seulement ce qui marche : `- [x]`._
 
 - [ ] Données lues et enregistrées dans `donnees/releves.json`
 - [ ] Ajouter un relevé, saisies invalides refusées sans arrêter le programme
@@ -34,11 +34,11 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ## Données
 
-✏️ *Le fichier, le nombre de relevés, les champs (voir [docs/dictionnaire-donnees.md](docs/dictionnaire-donnees.md)), les unités. Rappelez qu'ils sont fictifs.*
+✏️ _Le fichier, le nombre de relevés, les champs (voir [docs/dictionnaire-donnees.md](docs/dictionnaire-donnees.md)), les unités. Rappelez qu'ils sont fictifs._
 
 ## Limites
 
-✏️ *Au moins trois. Par exemple : dix jours de relevés forment une courte série, ils ne décrivent pas le climat de la région.*
+✏️ _Au moins trois. Par exemple : dix jours de relevés forment une courte série, ils ne décrivent pas le climat de la région._
 
 ## Documents
 
@@ -46,4 +46,4 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ## Auteur
 
-✏️ *Prénom NOM, compte GitHub. Entraide : avec qui, sur quoi.*
+✏️ _Prénom NOM, compte GitHub. Entraide : avec qui, sur quoi._
