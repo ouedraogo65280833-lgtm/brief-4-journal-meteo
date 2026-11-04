@@ -5,5 +5,5 @@
 | Ce que je cherchais | Où | Ce que j'ai compris | Utilisé dans |
 |Comment lire un fichier JSON|Doc Node.js |await readFile(chemin, 'utf8'): permet de lire le fichier, JSON.parse : transforme le fichier lu en objet exploitable|stockage.js |
 |Enregistrer un tableau de données |claude IA|JSON.stringify(): transforme données en texte JSON |stockage.js|
-| ✏️ | | | |
+|convertit texte en nombre/ Vérifier qu’un texte est un nombre |MDN |VersNombre(): convertit un texte en nombre/ Number.isNaN(): permet de detecter une valeur qui n'est pas un nombre |registre.js |
 | | | | |
