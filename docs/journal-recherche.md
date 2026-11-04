@@ -9,3 +9,5 @@
 |Trouver le minimum et le maximum |Claude IA|on part du premier relevé puis on compare chaque valeur avec < et > pour mettre à jour min et max|synthese.js |
 |Calculer une somme avec une boucle|Claude IA|for...of parcourt chaque élément ; on part de 0 et on ajoute à chaque tour (somme = somme + valeur)|synthese.js|
 |Arrondir à une décimale|MDN|toFixed(1) arrondit à 1 décimale|synthese.js|
+|rouver le premier relevé d’une date|for..of parcourt les relevés dans l’ordre, si releve.date === date, return releve renvoie ce relevé et arrête la fonction : on obtient donc le premier trouvé, si la boucle se termine sans correspondance, return undefined|Claude IA|recherche.js|
+|Filtrer les relevés selon un seuil|Claude IA|créer un tableau vide resultat, puis pour chaque relevé où pluieMm >= seuil on fait push. Le >= inclut un relevé dont la pluie est exactement égale au seuil. On renvoie un nouveau tableau ; le journal d’origine n’est pas modifié|recherche.js|
