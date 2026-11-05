@@ -4,7 +4,7 @@
 
 ## Contexte
 
-Le journal métérologique est un application en ligne de commande destinée à enregistrer et exploiter les observations météorologiques quotidiennes d'une explotation agricole. Elle permettra de suivre trois paramètres : la température, la pluviométrie et l'hmidité relative de l'air. L'objectif est de faciliter la conservation, la consultation et l'analyse descriptives des données pour apuyer le suivi des activités agricoles.
+Le journal météorologique est une application en ligne de commande destinée à enregistrer et exploiter les observations météorologiques quotidiennes d'une exploitation agricole, utliser par le responsable d'une ferme pédagogique. Elle permettra de suivre trois paramètres : la température, la pluviométrie et l'humidité relative de l'air. L'objectif est de faciliter la conservation, la consultation et l'analyse descriptives des données pour apuyer le suivi des activités agricoles.
 
 ## Prérequis et lancement
 
@@ -23,14 +23,14 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ✏️ _Cochez seulement ce qui marche : `- [x]`._
 
-- [ ] Données lues et enregistrées dans `donnees/releves.json`
-- [ ] Ajouter un relevé, saisies invalides refusées sans arrêter le programme
-- [ ] Lister les relevés, message si le journal est vide
-- [ ] Rechercher par identifiant ou par date ; journées pluvieuses (au moins 10 mm)
-- [ ] Trier par température ou par pluie
-- [ ] Synthèse : température moyenne, minimale et maximale de la série, cumul de pluie, journées pluvieuses
-- [ ] Bonus : supprimer et modifier un relevé (choix 6 et 7)
-- [ ] Bonus : tri par température décroissante, journée la plus chaude
+- [x] Données lues et enregistrées dans `donnees/releves.json`
+- [x] Ajouter un relevé, saisies invalides refusées sans arrêter le programme
+- [x] Lister les relevés, message si le journal est vide
+- [x] Rechercher par identifiant ou par date ; journées pluvieuses (au moins 10 mm)
+- [x] Trier par température ou par pluie
+- [x] Synthèse : température moyenne, minimale et maximale de la série, cumul de pluie, journées pluvieuses
+- [x] Bonus : supprimer et modifier un relevé (choix 6 et 7)
+- [x] Bonus : tri par température décroissante, journée la plus chaude
 
 ## Données
 
@@ -46,4 +46,17 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ## Auteur
 
-✏️ _Prénom NOM, compte GitHub. Entraide : avec qui, sur quoi._
+Prénom: BOURAHIMA
+NOM: OUEDRAGO
+Compte GitHub: ouedraogo65280833-lgtm
+Entraide :
+FAKAYODE ABDUL,
+ANOH LEVI EMMANUEL,
+KONAN ANGLOVIA KOUASSI,
+KOUAME KOUADIO K.FLORENT,
+THYEDIE AKPLI,
+KOFFI VICTOIRE,
+KONE PAGADJOUFOUGOU ABDOULAYE,
+FALLE SEREKO jAURES,
+ESSY ABRAN
+sur quoi: l'ensemble du projet
