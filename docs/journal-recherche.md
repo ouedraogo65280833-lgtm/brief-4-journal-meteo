@@ -11,3 +11,8 @@
 |Arrondir à une décimale|MDN|toFixed(1) arrondit à 1 décimale|synthese.js|
 |rouver le premier relevé d’une date|for..of parcourt les relevés dans l’ordre, si releve.date === date, return releve renvoie ce relevé et arrête la fonction : on obtient donc le premier trouvé, si la boucle se termine sans correspondance, return undefined|Claude IA|recherche.js|
 |Filtrer les relevés selon un seuil|Claude IA|créer un tableau vide resultat, puis pour chaque relevé où pluieMm >= seuil on fait push. Le >= inclut un relevé dont la pluie est exactement égale au seuil. On renvoie un nouveau tableau ; le journal d’origine n’est pas modifié|recherche.js|
+|Choisir une action selon la saisie|MDN |switch (choix) envoie vers l’action qui correspond au choix. break termine l’action, default gère un choix inconnu|app.js|
+|Gérer une erreur sans tout arrêter|Claude IA|try {} catch {} : essaie , si ça plante, fais ça à la place|app.js|
+|Répéter le menu|MDN|while: recommence tant que c’est vrai ». Taper 0 met continuer à false et arrête la boucle|app.js|
+|Retirer un élément d’une liste|MDN|findIndex() donne la position du relevé (ou -1 s’il n’existe pas). splice(position, 1) retire 1 élément à cette position et le renvoie|bonus.js|
+|Garder les éléments qui répondent à une condition|Claude IA|filter() crée une nouvelle liste sans le relevé qu’on modifie, pour qu’il ne soit pas vu comme un doublon de lui-même|bonus.js|
