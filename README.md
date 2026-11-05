@@ -34,11 +34,18 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ## Données
 
-✏️ _Le fichier, le nombre de relevés, les champs (voir [docs/dictionnaire-donnees.md](docs/dictionnaire-donnees.md)), les unités. Rappelez qu'ils sont fictifs._
+Le fichier, le nombre de relevés, les champs (voir [docs/dictionnaire-donnees.md](docs/dictionnaire-donnees.md)), les unités. Les données utliser pour concevoire cette application sont fictif.
 
 ## Limites
 
-✏️ _Au moins trois. Par exemple : dix jours de relevés forment une courte série, ils ne décrivent pas le climat de la région._
+✏️ \_Au moins trois. Par exemple : dix jours de relevés forment une courte série, ils ne décrivent pas le climat de la région.
+\*\* Trois limites :
+
+\*Absence de mesure de l'humidité du sol: 'humidité relative de l'air enregistrée en pourcentage ne permet pas de connaître directement la quantité d'eau disponible dans le sol pour les cultures.
+
+\*Durée insffissante des observations: les dix jours de relevés initiaux constituent une courte série météorologique pour un prise de décision.
+
+\*Données fictives: les relevés fournis dans le projet sont des données de démonstration. Ils ne représentent pas nécessairement les conditions météorologiques réellement observées dans une exploitation agricole.
 
 ## Documents
 
